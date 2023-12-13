@@ -5,8 +5,7 @@ import argparse
 import torch
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from autoregressive_sampling import autoregressive_sampling
-from speculative_sampling import speculative_sampling
+
 
 """========================================================================================================================"""
 def get_distribution(logits, temperature):
