@@ -81,8 +81,11 @@ By utilizing the assistive model during speculative sampling, the time has been 
 Memory footprint
 
 Autoregressive
+
 ![alt text](images/img7.png "Title")
+
 Speculative sampling
+
 ![alt text](images/img8.png "Title")
 
 To view, run and reproduce the result please follow the below link
