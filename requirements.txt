@@ -1,0 +1,8 @@
+torch==2.0.0+cpu
+torchaudio==2.0.1+cpu
+torchdata==0.6.0
+torchinfo==1.8.0
+torchmetrics==1.2.1
+torchtext==0.15.1+cpu
+torchvision==0.15.1+cpu
+transformers==4.35.2
