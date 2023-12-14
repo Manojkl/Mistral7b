@@ -65,7 +65,7 @@ The autoregressive regressive sampling and speculative sampling is implemented b
 
 ![alt text](images/img5.png "Title")
 
-If we change the starting time position we get the below output.
+If we change the starting time position we get the below output.[notebookf34b484d07_v2.ipynb]
 
 ![alt text](images/img6.png "Title")
 
