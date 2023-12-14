@@ -105,6 +105,26 @@ Speculative sampling
 ![alt text](images/img10.png "Title")
 `python main.py --prompt="Alice and bob" --speculative_model_id="mistralai/Mistral-7B-Instruct-v0.1" --speculative_draft_id="EleutherAI/pythia-160m-deduped"`
 
+Generate.py
+
+The implementation of speculative sampling and autoregressive sampling[7] 
+
+Usage:
+
+Speculative sampling
+
+`python generate.py --method speculative --prompt "Emily found a mysterious letter on her doorstep one sunny morning." --max_new_tokens 12 --target_model mistralai/Mistral-7B-Instruct-v0.1 --draft_model EleutherAI/pythia-160m-deduped --temperature 1`
+
+Autoregressive
+
+`python generate.py  --method autoregressive --prompt "Emily found a mysterious letter on her doorstep one sunny morning." --max_new_tokens 12 --target_model mistralai/Mistral-7B-Instruct-v0.1 --temperature 1`
+
+Output
+![alt text](images/img11.png "Title")
+
+To view the result in kaggle
+https://www.kaggle.com/manojkolpe/mistral7b
+
 References:
 
 1. https://jaykmody.com/blog/speculative-sampling/ 
